@@ -9,7 +9,7 @@ const Usuario = mongoose.model("Usuario", {
   password: {
     type: String,
     required: true,
-    minlength: 7,
+    minlength: 6,
     trim: true,
   },
 });
